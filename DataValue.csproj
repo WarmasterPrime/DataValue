@@ -28,6 +28,7 @@
     <None Include="C:\Users\kekoa\Downloads\ezgif-3-57d9c1e68a.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
