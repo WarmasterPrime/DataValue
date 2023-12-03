@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Virtma Logo V2.ico</ApplicationIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Daniel K. Valente</Authors>
+    <Company>DOFT</Company>
+    <Description>Provides a struct object used to store data information.</Description>
+    <PackageIcon>ezgif-3-57d9c1e68a.png</PackageIcon>
+    <PackageTags>vadvance;datavalue;data;unit;</PackageTags>
+    <PackAsTool>True</PackAsTool>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Virtma Logo V2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\kekoa\Downloads\ezgif-3-57d9c1e68a.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VEnum">
+      <HintPath>..\..\VEnum\VEnum\bin\Release\net6.0\VEnum.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
